@@ -22,7 +22,6 @@ defmodule Floki.Mixfile do
 
   defp deps do
     [
-      {:html5ever, "~> 0.5.0"},
       {:earmark, "~> 1.0", only: :dev},
       {:ex_doc, "~> 0.14", only: :dev},
       {:credo, ">= 0.0.0", only: [:dev, :test]},
